@@ -15,7 +15,7 @@ from utils.pretreatment import ResizeAndNormalize
 def detect(model, image_path, device, converter):
     image = Image.open(image_path).convert('L')
     # 对图片进行resize和归一化操作
-    transform = ResizeAndNormalize((1000, 32))
+    transform = ResizeAndNormalize((1024, 32))
     image = transform(image)
     image = image.unsqueeze(0).to(device)
 
