@@ -23,3 +23,5 @@
 **训练自己的模型就是这么简单！**
   
   
+100万张文字图片数据集下载地址：https://cloud.189.cn/web/share?code=eyuiiyjyEFva（访问码：4giq）
+在1上面数据集训练得到的最好模型（96％）下载地址： https://cloud.189.cn/web/share?code=2IryuqQ7J7ru（访问码：8thc）
