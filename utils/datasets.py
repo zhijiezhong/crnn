@@ -21,7 +21,7 @@ class CRNNDataset(Dataset):
         # 读取灰度图的图片
         image = Image.open(image_path).convert('L')
         # 对图片进行resize和归一化操作
-        transform = ResizeAndNormalize((1000, 32))
+        transform = ResizeAndNormalize((1024, 32))
         image = transform(image)
         return image, label
 
